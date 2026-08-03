@@ -1,0 +1,34 @@
+[
+  {
+    "id": "ensase",
+    "company": "ENSASE",
+    "title": "Responsable des Systèmes d'Information",
+    "location": "Saint-Étienne",
+    "start": "2024",
+    "end": "Aujourd'hui",
+    "description": "Pilotage de la stratégie numérique, des infrastructures, de la cybersécurité et des projets de transformation du système d'information.",
+    "projects": [
+      "Migration Nextcloud",
+      "Migration Proxmox VE 8",
+      "Déploiement Stormshield",
+      "Migration GLPI 11",
+      "Microsoft 365 / Entra ID"
+    ]
+  },
+  {
+    "id": "sigvaris",
+    "company": "SIGVARIS",
+    "title": "Responsable IT",
+    "location": "Andrézieux-Bouthéon",
+    "start": "2014",
+    "end": "2024",
+    "description": "Pilotage de l'infrastructure informatique et des projets internationaux.",
+    "projects": [
+      "ERP",
+      "Téléphonie",
+      "VMware",
+      "Kiamo",
+      "Microsoft 365"
+    ]
+  }
+]
