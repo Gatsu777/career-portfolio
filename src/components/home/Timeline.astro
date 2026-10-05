@@ -1,0 +1,41 @@
+---
+import experiences from "../../data/experiences.json";
+---
+
+<section class="timeline">
+
+    <h2>Parcours professionnel</h2>
+
+    {experiences.map((experience) => (
+
+        <article class="timeline-card">
+
+            <div class="timeline-year">
+
+                {experience.start}
+
+            </div>
+
+            <div class="timeline-content">
+
+                <h3>{experience.company}</h3>
+
+                <h4>{experience.title}</h4>
+
+                <p>{experience.location}</p>
+
+                <p class="timeline-period">
+
+                    {experience.start} — {experience.end}
+
+                </p>
+
+                <p>{experience.description}</p>
+
+            </div>
+
+        </article>
+
+    ))}
+
+</section>

@@ -1,0 +1,45 @@
+---
+const domains = [
+    "Pilotage du SI",
+    "Cybersécurité",
+    "Infrastructure",
+    "Virtualisation",
+    "Microsoft 365",
+    "Gestion de projets"
+];
+---
+
+<section class="panel">
+
+    <h3>📍 Poste actuel</h3>
+
+    <h2>ENSASE</h2>
+
+    <p class="subtitle">
+        Responsable des Systèmes d'Information
+    </p>
+
+    <p style="margin-top:18px">
+
+        École Nationale Supérieure d'Architecture de Saint-Étienne.
+
+        Pilotage de la stratégie numérique, de l'infrastructure,
+        de la cybersécurité et des projets de transformation du SI.
+
+    </p>
+
+    <div class="skills">
+
+        {domains.map(domain => (
+
+            <span>{domain}</span>
+
+        ))}
+
+    </div>
+
+    <a href="#" class="button">
+        En savoir plus →
+    </a>
+
+</section>

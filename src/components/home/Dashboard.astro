@@ -1,0 +1,69 @@
+---
+import CurrentPosition from "./CurrentPosition.astro";
+
+const projects = [
+  "Migration Nextcloud 33",
+  "Migration Proxmox VE 8",
+  "Déploiement Stormshield SN720",
+  "Microsoft 365 / Entra ID",
+  "Migration GLPI 11",
+];
+
+const skills = [
+  "Infrastructure",
+  "Cybersécurité",
+  "Cloud",
+  "Virtualisation",
+  "Management",
+  "Gestion de projet",
+  "Microsoft 365",
+  "Linux",
+  "Windows Server",
+];
+---
+
+<section class="dashboard">
+
+    <CurrentPosition />
+
+    <section class="panel">
+
+        <h3>🚀 Derniers projets</h3>
+
+        <ul>
+
+            {projects.map(project => (
+
+                <li>{project}</li>
+
+            ))}
+
+        </ul>
+
+        <a href="#" class="button">
+            Voir tous les projets →
+        </a>
+
+    </section>
+
+    <section class="panel">
+
+        <h3>⭐ Compétences clés</h3>
+
+        <div class="skills">
+
+            {skills.map(skill => (
+
+                <span>{skill}</span>
+
+            ))}
+
+        </div>
+
+        <a href="#" class="button">
+            Toutes les compétences →
+        </a>
+
+    </section>
+
+</section>
