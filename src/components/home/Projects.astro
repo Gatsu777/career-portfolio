@@ -1,0 +1,80 @@
+---
+import projects from "../../data/projects.json";
+---
+
+<section class="projects-section">
+
+    <div class="section-heading">
+
+        <span class="section-label">
+            PROJETS
+        </span>
+
+        <h2>
+            Projets IT majeurs
+        </h2>
+
+        <p>
+            Une sélection de projets d'infrastructure, de cybersécurité,
+            de cloud et de transformation du système d'information.
+        </p>
+
+    </div>
+
+    <div class="projects-grid">
+
+        {projects
+            .filter(project => project.featured)
+            .map(project => (
+
+            <article class="project-card">
+
+                <div class="project-card-header">
+
+                    <span class="project-category">
+                        {project.category}
+                    </span>
+
+                    <span class="project-status">
+                        {project.status}
+                    </span>
+
+                </div>
+
+                <h3>
+                    {project.title}
+                </h3>
+
+                <p class="project-company">
+                    {project.company}
+                </p>
+
+                <p class="project-description">
+                    {project.description}
+                </p>
+
+                <div class="project-technologies">
+
+                    {project.technologies.map(technology => (
+                        <span>{technology}</span>
+                    ))}
+
+                </div>
+
+                <div class="project-highlights">
+
+                    <ul>
+                        {project.highlights.slice(0, 3).map(highlight => (
+                            <li>{highlight}</li>
+                        ))}
+                    </ul>
+
+                </div>
+
+            </article>
+
+        ))}
+
+    </div>
+
+</section>

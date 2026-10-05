@@ -1,0 +1,162 @@
+[
+  {
+    "id": "nextcloud",
+    "title": "Migration Nextcloud",
+    "category": "Cloud & Collaboration",
+    "company": "ENSASE",
+    "status": "Réalisé",
+    "featured": true,
+    "technologies": [
+      "Nextcloud",
+      "Ubuntu",
+      "PHP",
+      "MariaDB",
+      "OnlyOffice"
+    ],
+    "description": "Migration et modernisation de la plateforme Nextcloud de l'établissement.",
+    "context": "Évolution de l'infrastructure de collaboration et de stockage de l'établissement.",
+    "role": "Responsable du projet et de l'infrastructure",
+    "highlights": [
+      "Migration vers une nouvelle infrastructure Linux",
+      "Mise à niveau de la plateforme Nextcloud",
+      "Évolution de PHP et MariaDB",
+      "Intégration d'OnlyOffice",
+      "Augmentation de la capacité de stockage"
+    ],
+    "skills": [
+      "Administration Linux",
+      "Administration applicative",
+      "Bases de données",
+      "Cloud privé",
+      "Migration"
+    ]
+  },
+  {
+    "id": "stormshield",
+    "title": "Déploiement Stormshield SN720",
+    "category": "Cybersécurité & Réseau",
+    "company": "ENSASE",
+    "status": "Réalisé",
+    "featured": true,
+    "technologies": [
+      "Stormshield",
+      "Firewall",
+      "NAT",
+      "VPN",
+      "Réseau"
+    ],
+    "description": "Remplacement de l'ancien pare-feu par une solution Stormshield.",
+    "context": "Modernisation de l'infrastructure de sécurité réseau de l'établissement.",
+    "role": "Pilotage et administration de la solution",
+    "highlights": [
+      "Déploiement d'un Stormshield SN720",
+      "Reprise et adaptation des règles réseau",
+      "Gestion du NAT",
+      "Mise en place des règles de filtrage",
+      "Diagnostic des flux réseau"
+    ],
+    "skills": [
+      "Cybersécurité",
+      "Firewalling",
+      "Réseaux",
+      "Analyse de flux",
+      "Gestion des règles de sécurité"
+    ]
+  },
+  {
+    "id": "proxmox",
+    "title": "Migration Proxmox VE",
+    "category": "Virtualisation",
+    "company": "ENSASE",
+    "status": "Réalisé",
+    "featured": true,
+    "technologies": [
+      "Proxmox VE",
+      "Proxmox Backup Server",
+      "Debian",
+      "QEMU",
+      "Virtualisation"
+    ],
+    "description": "Modernisation de l'environnement de virtualisation et de sauvegarde.",
+    "context": "Évolution de l'infrastructure de virtualisation et du système de sauvegarde.",
+    "role": "Administration et pilotage de l'infrastructure",
+    "highlights": [
+      "Migration vers Proxmox VE 8",
+      "Mise à niveau de Proxmox Backup Server",
+      "Évolution de Debian sur PBS",
+      "Administration des machines virtuelles",
+      "Contrôle des sauvegardes"
+    ],
+    "skills": [
+      "Virtualisation",
+      "Linux",
+      "Sauvegarde",
+      "Infrastructure",
+      "Administration système"
+    ]
+  },
+  {
+    "id": "entra-id",
+    "title": "Microsoft 365 & Entra ID",
+    "category": "Identité & Cloud",
+    "company": "ENSASE",
+    "status": "En cours",
+    "featured": true,
+    "technologies": [
+      "Microsoft 365",
+      "Microsoft Entra ID",
+      "Active Directory",
+      "Azure AD Connect",
+      "Microsoft Graph"
+    ],
+    "description": "Modernisation de la gestion des identités et de la synchronisation entre l'Active Directory local et Microsoft Entra ID.",
+    "context": "Évolution de l'environnement d'identité et de gestion des comptes utilisateurs.",
+    "role": "Administration et pilotage de l'environnement d'identité",
+    "highlights": [
+      "Synchronisation Active Directory / Entra ID",
+      "Gestion des groupes de synchronisation",
+      "Administration des comptes utilisateurs",
+      "Gestion des licences Microsoft 365",
+      "Administration via Microsoft Graph"
+    ],
+    "skills": [
+      "Active Directory",
+      "Microsoft Entra ID",
+      "Microsoft 365",
+      "Gestion des identités",
+      "PowerShell"
+    ]
+  },
+  {
+    "id": "infrastructure-linux",
+    "title": "Modernisation des infrastructures Linux",
+    "category": "Infrastructure",
+    "company": "ENSASE",
+    "status": "En cours",
+    "featured": false,
+    "technologies": [
+      "Ubuntu",
+      "Linux",
+      "MariaDB",
+      "PHP",
+      "Apache"
+    ],
+    "description": "Modernisation progressive des serveurs Linux et des applications associées.",
+    "context": "Renouvellement des systèmes historiques et évolution des versions logicielles.",
+    "role": "Administration système et pilotage des évolutions",
+    "highlights": [
+      "Migration vers des versions récentes d'Ubuntu",
+      "Évolution des versions PHP",
+      "Évolution des bases MariaDB",
+      "Suivi des performances applicatives",
+      "Renforcement de la maintenance système"
+    ],
+    "skills": [
+      "Linux",
+      "Administration système",
+      "Web",
+      "Bases de données",
+      "Migration"
+    ]
+  }
+]
